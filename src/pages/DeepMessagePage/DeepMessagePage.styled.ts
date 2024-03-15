@@ -1,4 +1,4 @@
-import { Flex, Input } from 'antd';
+import { Flex } from 'antd';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
