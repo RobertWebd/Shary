@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
-import { HashRouter as Router } from 'react-router-dom';
 import { GlobalStyle } from './styled.ts';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Router>
+    <BrowserRouter>
       <GlobalStyle />
       <App />
-    </Router>
+    </BrowserRouter>
   </React.StrictMode>,
 );
